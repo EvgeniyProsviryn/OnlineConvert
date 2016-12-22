@@ -1,0 +1,108 @@
+*{    
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1px;
+}
+
+.wrapper{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: url(../images/dengi-evro-banknoty.jpg);
+    background-size: cover;
+}
+
+.filter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+}
+
+.text{
+    position: absolute;
+    font-weight: bold;
+    left:50%;
+    top:50%;
+    margin-left: -83px;
+    margin-top: -77px;
+    font-size: 18px;
+    
+}
+
+.form-group{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left: -115px;
+    margin-top: -30px;   
+}
+
+
+
+.moneyselect{
+    
+    margin-top: 10px;
+
+}
+
+
+.button{
+    background: green;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    border:none;
+    transition:all .5s linear;
+    
+
+}
+
+.button:hover{
+    box-shadow: 0px 0px 1px black;
+    background: #01650b;
+}
+
+.result{
+    display: none;
+    height: 200px;
+    margin-top: 10px;
+    background: white;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 3px;
+    border:1px solid #ccc;
+    top:50%;
+    margin-top: -110px;
+    color: black;
+    font-size: 24px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.res{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 50%;
+    margin-left: -65px;
+    display: inline-block;
+    text-align: center;
+    width: 140px;
+}
+
+.fa-times{
+    float: right;
+    margin-top: 10px;
+    transition: .3s linear;
+}
+
+.fa-times:hover{
+    cursor: pointer;
+    color: red;
+}
